@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Minha Série - Heartzzu Style</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Helvetica', sans-serif;
+    }
+    header {
+      background-image: url('https://via.placeholder.com/800x450?text=Capa+Principal');
+      background-size: cover;
+      background-position: center;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 32px;
+      margin: 0;
+      text-shadow: 2px 2px 4px #000;
+    }
+    header .info {
+      margin-top: 10px;
+      color: #00e676;
+    }
+    .badge {
+      display: inline-block;
+      margin: 0 4px;
+      padding: 2px 8px;
+      border-radius: 4px;
+      background-color: #333;
+      font-size: 12px;
+    }
+    .buttons {
+      margin-top: 20px;
+    }
+    .buttons button {
+      background-color: #e50914;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+      margin: 0 10px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .buttons button:hover {
+      background-color: #b00610;
+    }
+    section {
+      padding: 20px;
+    }
+    section h2 {
+      margin-bottom: 15px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+    .episode {
+      background-color: #111;
+      border-radius: 4px;
+      overflow: hidden;
+      position: relative;
+    }
+    .episode img {
+      width: 100%;
+      display: block;
+    }
+    .hd-tag {
+      position: absolute;
+      bottom: 8px;
+      right: 8px;
+      background-color: rgba(0,0,0,0.7);
+      color: white;
+      font-size: 10px;
+      padding: 2px 4px;
+      border-radius: 2px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Larissa Oliveira, vida.</h1>
+    <div class="info">Estreou em 16/06/2024 <span class="badge">L</span> <span class="badge">HD</span></div>
+    <div class="buttons">
+      <button>▶ Reproduzir</button>
+      <button>✓ Favorito</button>
+    </div>
+  </header>
+  <section>
+    <h2>Melhores episódios</h2>
+    <div class="grid">
+      <div class="episode">
+        <img src="https://via.placeholder.com/300x170?text=Episódio+1" alt="Episódio 1">
+        <div class="hd-tag">HD</div>
+      </div>
+      <div class="episode">
+        <img src="https://via.placeholder.com/300x170?text=Episódio+2" alt="Episódio 2">
+        <div class="hd-tag">HD</div>
+      </div>
+      <div class="episode">
+        <img src="https://via.placeholder.com/300x170?text=Episódio+3" alt="Episódio 3">
+        <div class="hd-tag">HD</div>
+      </div>
+      <div class="episode">
+        <img src="https://via.placeholder.com/300x170?text=Episódio+4" alt="Episódio 4">
+        <div class="hd-tag">HD</div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
